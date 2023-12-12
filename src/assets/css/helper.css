@@ -3,7 +3,7 @@
 */
 
 .btn {
-    @apply h-[32px] px-[25px] inline-flex justify-center items-center text-[15px]
+    @apply h-[32px] px-[15px] inline-flex justify-center items-center text-[15px]
 }
 
 .btn--lg {
@@ -30,6 +30,11 @@
     @apply border-[0.2px] border-amberBlack
 }
 
+.btn--outline-skyBlue {
+    @apply border-[0.2px] border-skyBlue text-skyBlue
+}
+
+
 .dropdown-menu {
     @apply absolute right-0 z-50 transition-all w-[190px] top-0 opacity-0 invisible
 }
@@ -52,4 +57,8 @@
 
 .head-4 {
     @apply text-[15px] font-[700] leading-normal 
+}
+
+.card {
+    @apply bg-white shadow-theme p-[15px] rounded-theme
 }
